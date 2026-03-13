@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+h1{
+    color: grey;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+h3{
+    color: rgb(43, 42, 42);
+    font-size: 20px;
+    flex-direction: row;
+    word-spacing: 15px;
+    margin-left: 550px;
+    margin-top: -20px;
+}
+.item{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(243, 173, 42);
+    margin-top: 50px;
+    }
+img{
+    width: 30%;
+    height: 55%;
+    margin-left: 200px;
+    margin-top: 60px;
+    object-fit: cover;
+}
+strong{
+    position: absolute;
+    font-size: 60px;
+    color: rgb(247, 239, 239);
+ padding-left: 20px;
+    padding-top:80px;
+    word-spacing: 90px;
+}
+p{
+    position: absolute;
+    padding-left: 650px;
+  top: 360px;
+font-size: 17px;
+color: rgb(245, 240, 240);
+}
+a{
+    position: absolute;
+    color: white;
+    padding-left: 10px;
+}
+button{
+    background-color: black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 15px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 310px;
+    position: absolute;
+}
+ button:active{
+    box-shadow: 0px 0px 8px rgb(238, 230, 230);
+inset: 0px 0px 6px rgb(243, 237, 237);
+transition: translateY(6px);
+  } 
+  button:hover{
+    border: solid 2px white;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+  }
+
+.box1{
+    
+    position: absolute;
+    top: 550px;
+    left: 250px;
+    width: 20%;
+    height: 40%;
+    background-color: rgb(247, 240, 240);
+}
+h2{
+    color: rgb(37, 35, 35);
+    text-align: center;
+    padding-top: 20px;
+}
+
+p1{
+    color:  rgb(53, 51, 51);
+    margin: 30px;
+    position: absolute;   
+   
+}
+button1{
+   
+     background-color: rgb(248, 238, 238);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 15px;
+    color: rgb(49, 34, 34);
+    margin-left: 50px;
+    position: absolute;
+    margin-top: 150px;
+    border: 1px solid;
+    border-color: orange;   
+}
+button1:active{
+    box-shadow: 1px 1px 8px rgb(240, 151, 151);
+inset: 1px 1px 6px rgb(230, 120, 120);
+transition: translateY(6px);
+  } 
+ 
+.box2{
+    position: absolute;
+    top: 550px;
+    left: 550px;
+    width: 20%;
+    height: 40%;
+    background-color: rgb(247, 240, 240);
+}
+h4{
+    color: rgb(37, 35, 35);
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+p2{
+    color:  rgb(53, 51, 51);
+    margin: 30px;
+    position: absolute;   
+   
+}
+button2{   
+     background-color: rgb(248, 238, 238);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 15px;
+    color: rgb(49, 34, 34);
+    margin-left: 50px;
+    position: absolute;
+    margin-top: 150px;
+    border: 1px solid;
+    border-color: orange;   
+}
+button2:active{
+    box-shadow: 1px 1px 8px rgb(240, 151, 151);
+inset: 1px 1px 6px rgb(230, 120, 120);
+transition: translateY(6px);
+  } 
+ 
+.box3{
+    position: absolute;
+    top: 550px;
+    left: 850px;
+    width: 20%;
+    height: 40%;
+    background-color: rgb(247, 240, 240);
+}
+h5{
+    color: rgb(37, 35, 35);
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+p3{
+    color:  rgb(53, 51, 51);
+    margin: 30px;
+    position: absolute;   
+   
+}
+button3{
+   
+     background-color: rgb(248, 238, 238);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 15px;
+    color: rgb(49, 34, 34);
+    margin-left: 50px;
+    position: absolute;
+    margin-top: 150px;
+    border: 1px solid;
+    border-color: orange;   
+}
+button3:active{
+    box-shadow: 1px 1px 8px rgb(240, 151, 151);
+inset: 1px 1px 6px rgb(230, 120, 120);
+transition: translateY(6px);
+  } 
+ 

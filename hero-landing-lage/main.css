@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    z-index: 2;
+    width: 95%;
+    position: fixed;
+    top: 1%;
+    left: 2.5%;
+    padding: 10px 50px;
+    border: solid 1px;
+    height: 70px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.411);
+}
+header img{
+    width: 60px;
+}
+.header__menu{
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    margin-left: 55%;
+}
+.header__menu a{
+    text-decoration: none;
+    color: #fafafa;
+    margin-right: 20px;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    z-index: -1;
+    }
+    .banner video{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+.banner h1{
+position: absolute;
+left: 7%;
+top: 40%;
+font-family: sans-serif;
+padding: 40px 50px;
+border-radius:10px ;
+background-color: #0002;
+backdrop-filter: blur(10px);
+color: rgb(12, 10, 10);
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+background-color: #2525254a;
+backdrop-filter: blur(10px);
+position: relative;
+padding: 5%;
+}
+.main_1{
+    background: url(https://uniticket.ru/wp-content/uploads/2022/10/otdyh-v-kirgizii-1.jpg);
+    background-size: cover;
+    background-position: center right;
+border: solid 10px #fafafa;
+width: 400px;
+height: 580px;
+border-radius: 30px;
+position: absolute;
+left: 10%;
+}
+.main_2{
+    background: url(https://static.tildacdn.com/tild3666-3135-4563-b433-366134386439/IMG_3657.jpg);
+    background-size: cover;
+    background-position: center right;
+width: 400px;
+height: 550px;
+border-radius: 30px;
+position: absolute;
+left: 30%;
+box-shadow: 0px 0px 33px #000;
+}
+.main_3{
+    background: url(https://yobte.ru/uploads/posts/2023-05/kirgizija-priroda-dostoprimechatelnosti-94-foto-17.webp);
+    width: 400px;
+height: 500px;
+border-radius: 20px;
+position: absolute ;
+top: 30 %;
+right: 5%;
+box-shadow: 0px 0px 30px #000;
+color: #fff;
+font-size: 20px;
+font-family: sans-serif;
+text-shadow: opx opx 13px #000;
+
+}
+ 

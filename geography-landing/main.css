@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* body{
+    overflow: hidden;
+}
+
+.root{
+    --text: calc( 1vw + 1vh)
+} */
+
+.header{
+    position: fixed;
+    width: 95%;
+    left: 2.5%;
+    top: 1%;
+    border: solid 1px rgba(41, 35, 35, 0.2);
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 5vmin;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #0f0f0f73;
+    backdrop-filter: blur(10px);
+}
+.logo{
+    height: 6vmin;
+}
+    .header_menu{
+        display: flex;
+        gap: 5vmin;
+    }
+
+    .header_menu a{
+        text-decoration: none;
+        color: #fff;
+        transition:  .5s all;
+        border-radius: 5px;
+    }
+  .header_menu a:hover{
+    letter-spacing: 1px;
+    background-color: #fff3;
+  }
+
+.banner{
+    height: 100vh;
+    background-image: url(https://i0.wp.com/geographicbook.com/wp-content/uploads/2023/06/What-is-Geography.jpg?resize=600%2C425&ssl=1);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+padding-bottom: 4vmin;
+gap: 4vmin;
+
+}
+
+.banner_item{
+    min-width: 300px;
+    width: 30%;
+    height: 30vmin;
+    border: solid 1px #fff4;
+    border-radius:  15px;
+    color: rgb(20, 20, 20);
+    padding: 1%;
+    backdrop-filter: blur(10px);
+}
+
+.item1{
+animation: item1 .8s ease;
+}
+@keyframes item1 {
+    0%{
+        transform: translateX(-2000px);
+    }
+    100%{
+        transform:  translateX(0);
+    }
+}
+
+.item2{
+    animation: item2 .8s ease;
+}
+@keyframes item2 {
+    0%{
+        transform: translateX(2000px);
+    }
+    100%{
+        transform:  translateX(0);
+    }
+}
+
+
+.banner_item p{
+    margin: 15px 0;
+}
+
+.banner_item button{
+    padding: 10px 10px;
+    background-color:  transparent;
+    color: #0c0c0c;
+    border: solid 1px;
+    border-radius: 10px;
+
+}
+
+
+@media (max-width: 1300px){
+.banner{
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.banner_item{
+    width: 80%;
+    height: 25vmin;
+    }
+    .banner_item p{
+        font-size: 14px;
+    }
+    .banner_item button{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 750px){
+        .banner_item{
+        width: 2%;
+        height: 30vmin;
+        }
+        .banner_item h2{
+            font-size: 20px;
+        }
+        .banner_item p{
+            font-size: 12px;
+            margin: 10px 0;
+        }
+    }
+    @media (max-width: 550px){
+        .banner_item{
+                height: 40vmin;
+                padding: 2%;
+        }
+        .banner_item h2{
+            font-size: 16px;
+        }
+        .banner_item p{
+            font-size: 10px;
+            margin: 10px 0;
+        }
+        .banner_item button{
+            padding: 7px 14px;
+            font-size: 10px;
+        }
+        }
+    

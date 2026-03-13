@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(4, 29, 4);
+}
+
+
+.box1{
+      position: relative;
+      width: 300px;
+      height: 300px;
+      border-radius: 60%;
+          margin-left: 180px;
+          margin-top: 30px;
+          
+    }
+    .box2{
+        position: relative;
+        width: 300px;
+        height: 300px;
+        border-radius: 60%;
+        margin-left: 250px;
+        margin-top: 30px;
+    }
+    .box3{
+        position: relative;
+        width: 300px;
+        height: 300px;
+        border-radius: 60%;
+        margin-left: 180px;
+        margin-top: 100px;
+    }
+    .box4{
+        position: relative;
+        width: 300px;
+        height: 300px;
+        border-radius: 60%;
+        margin-left: 300px;
+        margin-top: 100px;
+            }
+
+    h1{
+        position: relative;
+        padding-left: 400px;
+   padding-right: 50px;
+   margin: 30px;
+   top: 30px;
+         color: rgb(4, 59, 4);
+     font-size: 400%;
+    }
+    
+h3{
+   position: relative;
+  text-align: center;
+  padding-left: 300px ;
+  padding-right: 300px;
+   margin: 40px;
+   top: 30px;
+         color: rgb(98, 218, 98);
+     font-size: 120%;
+}
+
+h4{
+position: relative;
+text-align: center;
+color: rgb(30, 182, 30);
+top: 35px;
+}
+
+button{
+    position: absolute;
+       padding-top: 35px;
+       padding-right: 65px;
+       padding-left: 65px;
+       padding-bottom: 35px;
+       border-radius: 30px;
+       border: none;
+       background-color:rgb(68, 160, 68) ; 
+    color: rgb(233, 236, 233);
+    size: 30px;
+    /* margin-left: 500px;  */
+    left: 550px;
+    top: 680px;
+    }

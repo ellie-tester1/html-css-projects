@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+.item{
+position: absolute;
+width: 300px;
+border-radius: 50%;
+height: 300px;
+animation: item 4 s linear infinite;
+}
+.mid{
+    z-index: 2;
+    background-color: rgb(200, 245, 179);
+    background-image: url(https://w7.pngwing.com/pngs/946/201/png-transparent-itachi-uchiha-sharingan-clan-uchiha-half-sun-smiley-desktop-wallpaper-emoticon.png);
+    background-position: center;
+    background-size: 185%;
+    animation: 3s linear infinite sharingan;
+    box-shadow: 0px 0px 50px red;
+}
+@keyframes sharingan{
+    from{
+        transform:rotate(-360deg);
+    }
+}
+.top{
+    animation: top1 3s infinite linear;
+    }
+    @keyframes top1{
+        0%{
+            transform: translate(0);
+            background-color: transparent;
+        }
+        50%{
+            transform: translateY(-70%) scale(1.2);
+            background-color: blueviolet;
+        }
+        100%{
+            transform: translate(0);
+            background-color: transparent;
+        }
+    }
+    
+    .right{
+        animation: right1 3s infinite linear;
+            }
+            @keyframes right1{
+                0%{
+                    transform: translate(0);
+          background-color: transparent;
+                }
+                50%{
+                    transform: translateX(-70%) scale(1.2);
+background-color: blue;
+                }
+                100%{
+                    transform: translate(0);
+                    background-color: transparent;   
+                }
+            }
+            .bot{
+                animation: bot1 3s infinite linear;
+                }
+                @keyframes bot1{
+                    0%{
+                        transform: translate(0);
+                        background-color: transparent;
+                    }
+                    50%{
+                        transform: translateY(70%) scale(1.2);
+                        background-color: rgb(17, 223, 10);
+                    }
+                    100%{
+                        transform: translate(0);
+                        background-color: transparent;
+                    }
+                }
+                .left{
+                    animation: left1 3s infinite linear;
+                    }
+                    @keyframes left1{
+                        0%{
+                            transform: translate(0);
+                            background-color: transparent;
+                        }
+                        50%{
+                            transform: translateX(70%) scale(1.2);
+                            background-color: rgb(217, 231, 11);
+                        }
+                        100%{
+                            transform: translate(0);
+                            background-color: transparent;
+                        }
+                    }
+                    .top1{
+                        animation: top2 3s infinite linear;
+                        }
+                        @keyframes top2{
+                            0%{
+                                transform: translate(0);
+                                background-color: transparent;
+                            }
+                            50%{
+                                transform: translate(-50%, 50%) scale(1.2);
+                                background-color: rgb(217, 231, 11);
+                            }
+                            100%{
+                                transform: translate(0);
+                                background-color: transparent;
+                            }
+                        }
+                        .right1{
+                            animation: right2 3s infinite linear;
+                            }
+                            @keyframes right2{
+                                0%{
+                                    transform: translate(0);
+                                    background-color: transparent;
+                                }
+                                50%{
+                                    transform: translate(50%, -50%) scale(1.2);
+                                    background-color: rgb(231, 37, 11);
+                                }
+                                100%{
+                                    transform: translate(0);
+                                    background-color: transparent;
+                                }
+                            }
+                            .bot1{
+                                animation: bot2 3s infinite linear;
+                                }
+                                @keyframes bot2{
+                                    0%{
+                                        transform: translate(0);
+                                        background-color: transparent;
+                                    }
+                                    50%{
+                                        transform: translate(50%, 50%) scale(1.2);
+                                        background-color: rgb(10, 98, 133);
+                                    }
+                                    100%{
+                                        transform: translate(0);
+                                        background-color: transparent;
+                                    }
+                                }
+                                .left1{
+                                    animation: left2 3s infinite linear;
+                                    }
+                                    @keyframes left2{
+                                        0%{
+                                            transform: translate(0);
+                                            background-color: transparent;
+                                        }
+                                        50%{
+                                            transform: translate(-50%, -50%) scale(1.2);
+                                            background-color: rgb(189, 9, 84);
+                                        }
+                                        100%{
+                                            transform: translate(0);
+                                            background-color: transparent;
+                                        }
+                                    }

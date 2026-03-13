@@ -1,0 +1,109 @@
+*{ 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+    font-family: sans-serif; 
+} 
+ 
+$mainRed:#e50914; 
+$lightGray:#8c8c8c; 
+$darkGray:#333; 
+$mainBlue:#0071eb; 
+ 
+.main{ 
+    height: 100vh; 
+    padding: 2%; 
+    &__img{ 
+        width: 100%; 
+        height: 100%; 
+        object-fit: cover; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        filter: brightness(50%); 
+        z-index: -1; 
+    } 
+    &__logo{ 
+        font-size: 50px; 
+        color: $mainRed; 
+    } 
+    &__form{ 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        &-item{ 
+            border-radius: 5px; 
+            width: 450px; 
+            height: 500px; 
+            background-color: #0009; 
+            padding:3.5% ; 
+            >h2{ 
+                color: #fff; 
+                font-size: 2em; 
+                margin-bottom: 15px; 
+            } 
+            >input{ 
+                width: 100%; 
+                margin:  7px 0; 
+                padding: 17px; 
+                outline: none; 
+                border-radius:6px; 
+                border: none; 
+                background-color: $darkGray; 
+                color: $lightGray; 
+            } 
+            >button{ 
+                background-color: $mainRed; 
+                width: 100%; 
+                border: none; 
+                color: #fff; 
+                font-size: 18px; 
+                border-radius:6px; 
+                padding: 15px; 
+                margin: 20px 0; 
+            } 
+            &-span{ 
+                display: flex; 
+                width: 100%; 
+                align-items: center; 
+                justify-content: space-between; 
+                font-size: 13px; 
+                >p{ 
+                    color: $lightGray; 
+                } 
+                >a{ 
+                    color: $lightGray; 
+                    text-decoration: none; 
+                    &:hover{ 
+                        text-decoration: underline; 
+                    } 
+                } 
+            } 
+            >p{ 
+                color:$lightGray; 
+                margin-top: 16px; 
+                >a{ 
+                    color: #fff; 
+                    text-decoration: none; 
+                    &:hover{ 
+                        text-decoration: underline; 
+                    } 
+                } 
+            } 
+            &-bottom{ 
+                margin-top: 16px; 
+                display: block; 
+                color: $lightGray; 
+                font-size: 13px; 
+                >a{ 
+                    text-decoration: none; 
+                    color: $mainBlue; 
+                    &:hover{ 
+                        text-decoration: underline; 
+                    } 
+                } 
+            } 
+        } 
+    } 
+     
+}

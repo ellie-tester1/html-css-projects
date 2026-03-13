@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-origin: padding-box;
+}
+
+
+
+
+.box{
+    width: 250px;
+    height: 500px;
+    background-color: #252525;
+    margin: 100px auto;
+    padding-top: 10px;
+}
+
+.item{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin:  10px auto;
+    background-color: red;
+}
+.orange{
+    background-color: orange;
+}
+#green{
+    background-color: green;
+}

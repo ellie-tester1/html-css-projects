@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+div{
+    
+    padding-top: 100px;
+    padding-right: 20px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    height: 500px;
+    width: 500px;
+    /* background-color: blueviolet; */
+    border: solid 1px;
+    margin: 90px auto;
+    background-image: url(https://images.aif.by/007/477/937d4717b613daed2e3bdcbb01698232.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+color: white;
+}
+
+section{
+    /* margin-top: 50px auto; */
+        width: 200px;
+    height: 200px;
+ background-color: red;
+ border-radius: 100px;
+ padding: 40px;
+
+}
